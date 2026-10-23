@@ -1,0 +1,44 @@
+{
+  "customers": {
+    "cus_alpha": {
+      "paid": 9998,
+      "refunded": 1500,
+      "net": 8498,
+      "failed_payments": 0,
+      "subscription_status": "active",
+      "last_event_at": "2026-09-08T10:00:00Z"
+    },
+    "cus_bravo": {
+      "paid": 12000,
+      "refunded": 12000,
+      "net": 0,
+      "failed_payments": 1,
+      "subscription_status": "past_due",
+      "last_event_at": "2026-09-20T00:00:00Z"
+    },
+    "cus_charlie": {
+      "paid": 3000,
+      "refunded": 2000,
+      "net": 1000,
+      "failed_payments": 0,
+      "subscription_status": null,
+      "last_event_at": "2026-09-06T10:00:00Z"
+    },
+    "cus_delta": {
+      "paid": 2500,
+      "refunded": 0,
+      "net": 2500,
+      "failed_payments": 2,
+      "subscription_status": "canceled",
+      "last_event_at": "2026-09-10T07:00:00Z"
+    },
+    "cus_echo": {
+      "paid": 0,
+      "refunded": 0,
+      "net": 0,
+      "failed_payments": 1,
+      "subscription_status": "active",
+      "last_event_at": "2026-09-01T00:00:30Z"
+    }
+  }
+}
